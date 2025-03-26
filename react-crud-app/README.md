@@ -1,12 +1,24 @@
-# React + Vite
+# React CRUD App - Examen Práctico
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es parte del examen práctico para crear una aplicación web con funcionalidades completas de autenticación y gestión de usuarios utilizando React.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Inicio de sesión simulado con validación de credenciales
+- CRUD completo de usuarios (Crear, Leer, Editar, Eliminar)
+- Navegación entre secciones usando pestañas
+- Vista separada para editar usuarios
+- Modal con efecto de desenfoque para confirmaciones
+- Estilo responsivo y moderno con Bootstrap
 
-## Expanding the ESLint configuration
+## Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React
+- React Router DOM
+- Bootstrap 5
+- Bootstrap Icons
+- Axios
+
+## Instalación y ejecución local
+npm install
+npm run dev
